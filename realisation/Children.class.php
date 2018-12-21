@@ -9,6 +9,7 @@ class Children{
 	public $children_adress;
 	public $children_parents_contact;
 	public $children_remarks;
+	
 
 	public function __construct($children_id, $children_firstname, $children_lastname, $children_birthday, $children_adress, $parents_contact, $children_remarks)
 	{
@@ -105,9 +106,6 @@ class Children{
 		  $this->children_remarks = $_remarks;
 		}
 	}
-
-
-
 
 }
 
